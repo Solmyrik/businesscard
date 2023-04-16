@@ -1,0 +1,37 @@
+.footer {
+  background-color: $black;
+  color: $white;
+  &__container {
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 166px;
+    height: 44px;
+    img {
+      width: 166px;
+      height: 44px;
+    }
+  }
+  .header__number {
+    color: $white;
+  }
+  .header__logo {
+    color: $white;
+  }
+  .header__icon {
+    svg {
+      path {
+        fill: $white;
+      }
+    }
+  }
+
+  &__copy {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+}
